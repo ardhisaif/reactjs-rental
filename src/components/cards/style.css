@@ -1,0 +1,43 @@
+.card-container {
+    display: flex;
+    padding-left: 135px;
+    height: 337px;
+}
+
+.card {
+    display: flex;
+    height: 337px;
+    width: 284px;
+    background: url('https://gomoterra.com/wp-content/uploads/2021/06/eric-muhr-ZPsJW-OLZQM-unsplash-scaled.jpg');
+    background-size: cover;
+    background-position: right;
+    border-radius: 10px;
+    margin-right: 21px;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    width: 120px;
+    height: 56px;
+    margin-top: auto;
+    border-radius: 0px 6px 0px 0px;
+}
+
+.text1 {
+    font-family: 'Nunito' sans-serif;
+    color: #042521;
+    mix-blend-mode: normal;
+    padding-top: 11px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.text2 {
+    font-size: 9px;
+    color: #80918E;
+    mix-blend-mode: normal;
+    font-size: 17px;
+    font-weight: 400;
+}
