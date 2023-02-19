@@ -4,11 +4,44 @@
     height: 337px;
 }
 
-.card {
+.card1 {
     display: flex;
     height: 337px;
     width: 284px;
-    background: url('https://gomoterra.com/wp-content/uploads/2021/06/eric-muhr-ZPsJW-OLZQM-unsplash-scaled.jpg');
+    background-image: url('../../../public/van.png');
+    background-size: cover;
+    background-position: right;
+    border-radius: 10px;
+    margin-right: 21px;
+}
+
+.card2 {
+    display: flex;
+    height: 337px;
+    width: 284px;
+    background-image: url('../../../public/motor.png');
+    background-size: cover;
+    background-position: right;
+    border-radius: 10px;
+    margin-right: 21px;
+}
+
+.card3 {
+    display: flex;
+    height: 337px;
+    width: 284px;
+    background-image: url('../../../public/jeep2.png');
+    background-size: cover;
+    background-position: right;
+    border-radius: 10px;
+    margin-right: 21px;
+}
+
+.card4 {
+    display: flex;
+    height: 337px;
+    width: 284px;
+    background-image: url('../../../public/bike.png');
     background-size: cover;
     background-position: right;
     border-radius: 10px;

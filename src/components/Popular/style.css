@@ -5,12 +5,12 @@
 
 .popular-container {
     display: flex;
+    padding-left: 139px;
 }
 
 .popular {
     display: flex;
     font-family: 'Playfair Display', serif;
-    padding-left: 139px;
     font-weight: 700;
     font-style: normal;
     font-size: 36px;

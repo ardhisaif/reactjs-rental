@@ -1,8 +1,93 @@
-.stars {
-    padding-left: 143px;
+@font-face {
+    font-family: 'Mulish';
+    src: url(https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap);
 }
+
 
 .checked {
     color: #FFBB0C;
     padding: 7px;
+}
+
+.testi-container {
+    padding-left: 144px;
+}
+
+.stars {
+    padding-top: 98px;
+}
+
+.content {
+    font-family: 'Mulish', sans-serif;
+    color: #393939;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    width: 445px;
+    height: 144px;
+    padding-bottom: 40px;
+}
+
+.name {
+    font-family: 'Nunito' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.sub-name {
+    font-family: 'Nunito' sans-serif;
+    color: rgba(57, 57, 57, 0.85);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.photo-testi {
+    margin-left: 184px;
+    margin-top: 140px;
+    display: flex;
+    width: 384px;
+    height: 491px;
+    background: url('../../../public/man.png');
+    background-size: cover;
+    margin-bottom: 165px;
+    border-radius: 14px;
+}
+
+.photo-arrow {
+    display: flex;
+    margin-left: auto;
+    margin-top: auto;
+    border-radius: 16px 0px 0px 0px;
+    width: 132px;
+    height: 60px;
+    background: #FFFFFF;
+}
+
+.testi-display {
+    display: flex;
+}
+
+.ellipse {
+    width: 40px;
+    height: 40px;
+    
+    border: 2px solid #000000;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.ellipse-left {
+    width: 40px;
+    height: 40px;
+    
+    border: 2px solid #D7D7D7;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-left: 22px;
 }
