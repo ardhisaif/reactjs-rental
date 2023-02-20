@@ -1,7 +1,7 @@
 .footer-container {
     padding-top: 76px;
     height: 360px;
-    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
     font-family: 'Mulish', sans-serif;
@@ -69,4 +69,10 @@
     height: 21px;
     background: url('../../../public/image.png');
     background-size: cover;
+}
+
+.footer-line {
+    background: #C4C4C4;
+    margin-left: 91px;
+    margin-right: 91px;
 }

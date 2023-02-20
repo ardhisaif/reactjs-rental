@@ -1,4 +1,4 @@
-import './style.css'
+import './finder.css'
 
 function Finder() {
   return (
@@ -16,11 +16,13 @@ function Finder() {
         </div>
         <div>
             <form action="">
-                <input type="text" placeholder='Location' className='form-input'/>
-                <input type="text" placeholder='Type'/><br />
-                <input type="text" placeholder='Payment' className='form-input'/>
-                <input type="text" placeholder='Date'/><br />
-                <input type="submit" value="Explore"></input>
+                <div className='find-input'>
+                    <input type="text" placeholder='Location' className='form-input'/>
+                    <input type="text" placeholder='Type'/><br />
+                    <input type="text" placeholder='Payment' className='form-input'/>
+                    <input type="text" placeholder='Date'/><br />
+                </div>
+                    <input type="submit" id='find-submit' value="Explore"></input>
             </form>
         </div>
     </div>

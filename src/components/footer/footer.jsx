@@ -54,7 +54,7 @@ function Footers() {
                 </div>
             </div>
         </div>
-        <hr />
+        <hr className='footer-line'/>
         <div className='social'>
             <div className='social-media'>
                 

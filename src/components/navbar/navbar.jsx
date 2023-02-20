@@ -16,7 +16,7 @@ function Navbars() {
           <li><a href="/">Vehicle Type</a> </li>
           <li><a href="/">History</a> </li>
           <li><a href="/">About</a> </li>
-          <li><a href="/" className='login' style={{color:'#393939'}}>Login</a> </li>
+          <li><a href="/login" className='login' style={{color:'#393939'}}>Login</a> </li>
           <li><a href="/" className='register' style={{color:'#393939'}}>Register</a> </li>
         </ul>
       </nav>
