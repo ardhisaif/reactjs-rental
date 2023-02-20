@@ -1,5 +1,4 @@
-import Card from '../cards/card';
-import Testi from '../testimonial/testi';
+import Cards from '../cards/cards';
 import './style.css'
 
 function Popular() {
@@ -9,8 +8,7 @@ function Popular() {
             <div className='popular'>Popular in town</div>
             <div className='view'> View all</div>
         </div>
-        <Card />
-        <Testi />
+        <Cards/>
     </div>
   )
 }

@@ -1,6 +1,5 @@
-import './style.css'
 
-function Navbars() {
+function VehicleNavbar() {
   return (
     <div className='container'>
       <nav className='wrapper'>
@@ -12,8 +11,8 @@ function Navbars() {
           </div>
         </div>
         <ul className='navigation'>
-          <li><a href="/" style={{color:'#202336'}}>Home</a> </li>
-          <li><a href="/vehicle">Vehicle Type</a> </li>
+          <li><a href="/">Home</a> </li>
+          <li><a href="/vehicle"  style={{color:'#202336'}}>Vehicle Type</a> </li>
           <li><a href="/">History</a> </li>
           <li><a href="/">About</a> </li>
           <li><a href="/login" className='login' style={{color:'#393939'}}>Login</a> </li>
@@ -24,4 +23,4 @@ function Navbars() {
   )
 }
 
-export default Navbars;
+export default VehicleNavbar;

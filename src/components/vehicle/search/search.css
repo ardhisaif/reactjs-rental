@@ -1,0 +1,33 @@
+.search-container {
+    
+    display: flex;
+    align-items: center;
+    margin-top: 85px;
+    margin-left: 123px;
+    margin-right: 197px;
+    border: 0.8px solid #AFB0B9;
+    border-radius: 6px;
+    box-sizing: border-box;
+    height: 72px;
+}
+
+input[type=search] {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    width: 100vw;
+    border: none;
+    padding-left: 46px;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+.search-logo {
+    margin-right: 47px;
+}
