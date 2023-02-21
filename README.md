@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Home Page
+![alt text](https://github.com/ardhisaif/reactjs-rental/public/home.png?raw=true)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# DOM & Virtual DOM
+### DOM(Document Object Model)
+- Adalah interface yang memungkinkan developer memanipulasi halaman web dari segi struktur, tampilan, dan kontennya.
+- DOM melakukannya dengan cara mengambil, mengubah, menambah, maupun menghapus elemen HTML
 
-## Available Scripts
+### Virtual DOM
+-  Sebuah konsep dalam pemrograman di mana representasi ideal atau `virtual` dari antarmuka pengguna disimpan dalam memori dan disinkronkan dengan DOM “yang sebenarnya” oleh library seperti ReactDOM
+- setiap perubahan terhadap struktur dokumen tidak terjadi secara langsung pada permukaan browser, akan tetapi terjadi di dalam memory. Sehingga proses menjadi lebih cepat.
 
-In the project directory, you can run:
+<br/>
+<br/>
 
-### `yarn start`
+# Class & Functional Component
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### React Component
+- Campuran dari JavaScript dan fragmen HTML yang mengembalikan (HTML).
+- JavaScript menyediakan logika bisnis dan memungkinkan pembuatan HTML yang benar untuk dimasukkan ke dalam DOM. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `yarn test`
+### Functional Component
+fungsi JavaScript biasa yang mengembalikan JSX
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```jsx
+function WelcomeMessage() {
+  return (
+    <p>Hello, World</p>
+  )
+}
+export default WelcomeMessage;
+```
 
-### `yarn build`
+### Class Component
+harus membuat class yang extends `react.component`. JSX yang akan dirender akan dikembalikan di dalam metode render.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```jsx
+import React, { Component } from "react";
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+class ClassComponent extends Component {
+ render() {
+   return <h1>Hello, world</h1>;
+ }
+}
+```
+<br/>
+<br/>
+<br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# React Hooks
+Hooks memungkinkan Anda menggunakan state dan fitur React lainnya tanpa membuat sebuah kelas.
 
-### `yarn eject`
+```jsx
+import React, { useState } from 'react';
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+function Example() {
+  // Deklarasi sebuah variabel state baru, dimana akan dinamakan "count"
+  const [count, setCount] = useState(0);
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  return (
+    <div>
+      <p>Anda klik sebanyak {count} kali</p>
+      <button onClick={() => setCount(count + 1)}>
+        Klik saya
+      </button>
+    </div>
+  );
+}
+//useState merupakan Hook
+```
