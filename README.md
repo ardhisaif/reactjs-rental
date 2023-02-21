@@ -1,5 +1,11 @@
 # Home Page
-![alt text](https://github.com/ardhisaif/reactjs-rental/public/home.png?raw=true)
+<img src="https://github.com/ardhisaif/reactjs-rental/blob/vehicle_type/public/home%20page.png?raw=true" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="500" />
+
+# Login Page
+<img src="https://github.com/ardhisaif/reactjs-rental/blob/vehicle_type/public/login%20page.png?raw=true" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="500" />
+
+# Vehicle Page
+<img src="https://github.com/ardhisaif/reactjs-rental/blob/vehicle_type/public/vehicle%20page.png?raw=true" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="500" />
 
 # DOM & Virtual DOM
 ### DOM(Document Object Model)
