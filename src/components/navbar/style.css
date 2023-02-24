@@ -3,6 +3,10 @@
     src: url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
 }
 
+.dark-font{
+    color: #202336
+}
+
 .container{
     font-family: 'Nunito', sans-serif;
     display: flex;
@@ -84,4 +88,21 @@
     border-radius: 8px;
     background-color: #FFCD61;
     border: 1px solid #FFCD61;
+}
+
+
+.email-icon {
+    background:  url('../../../public/email-icon.png');
+    width: 40px;
+    height: 35px;
+    margin-left: 183px;
+}
+
+.photo-circle {
+    width: 50px;
+    height: 50px;
+    margin-left: 36px;
+    border-radius: 50%;
+    background-image: url('../../../public/pp.png');
+    background-size: cover;
 }

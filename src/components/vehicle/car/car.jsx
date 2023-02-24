@@ -1,31 +1,32 @@
 import Card from '../../cards/card';
 import React, { useEffect, useState } from 'react'
+import './car.css'
 import axios from 'axios';
 
-function Motorbike() {
-  const [Motorbikes, setMotorbike] = useState([])
+function Car() {
+  const [Cars, setCar] = useState([])
 
-    const getMotorbike = async () => {
+    const getCar = async () => {
         try {
-            const {data} = await axios.get('http://localhost:3001/vehicle/type?name=motorbike')
-            setMotorbike(data)
+            const {data} = await axios.get('http://localhost:3001/vehicle/type?name=car')
+            setCar(data)
         } catch (error) {
             console.log(error)
         }
     }
 
     useEffect(() => {
-      getMotorbike()
+      getCar()
     }, [])
 
   return (
     <div>
         <div className='popular-container'>
-            <div className='popular'>Motorbike</div>
+            <div className='popular'>Car</div>
             <div className='view'> View all</div>
         </div>
         <div className='card-container'>
-          {Motorbikes.data?.map((v) => {
+          {Cars.data?.map((v) => {
             return( 
               <Card
                 image={v.image} 
@@ -38,4 +39,4 @@ function Motorbike() {
   )
 }
 
-export default Motorbike;
+export default Car;

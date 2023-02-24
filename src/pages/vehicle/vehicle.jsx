@@ -2,18 +2,20 @@ import React from "react";
 import Footers from "../../components/footer/footer";
 import Popular from "../../components/Popular/popular";
 import Bike from "../../components/vehicle/bike/bike";
-import Cars from "../../components/vehicle/cars/cars";
+import Car from "../../components/vehicle/car/car";
 import Motorbike from "../../components/vehicle/motorbike/motorbike";
 import Search from "../../components/vehicle/search/search";
-import VehicleNavbar from "../../components/vehicle/vehicle_navbar/vehicleNavbar";
+import Navbars from "../../components/navbar/navbar";
 
 function Vehicle() {
+    const isLoggedIn = true
+
     return (
         <div>
-            <VehicleNavbar  fixed="top" />
+            <Navbars position={"vehicle"} isLoggedIn={isLoggedIn} fixed="top" />
             <Search />
             <Popular/>
-            <Cars />
+            <Car />
             <Motorbike />
             <Bike />
             <Footers/>

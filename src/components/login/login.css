@@ -92,13 +92,26 @@ a:link {
     margin-bottom: 14px;
 }
 
-input[type=input], select {
+.login-input > input[type=input], select {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
+    font-style: normal;
+    font-family: 'Nunito' sans-serif;
     background: rgba(255, 255, 255, 0.26);
     border: none;
     padding-left: 41px;
     border-radius: 10px;
     height: 79px;
     width: 447px;
+}
+
+.login-input > input::placeholder {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
+    font-style: normal;
+    font-family: 'Nunito' sans-serif;
 }
 
 .space {
