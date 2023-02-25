@@ -6,10 +6,12 @@
 
 .card1 {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     height: 337px;
     width: 284px;
     background-size: cover;
-    background-position: right;
+    background-position: center;
     border-radius: 10px;
     margin-right: 21px;
 }
@@ -79,7 +81,7 @@
 }
 
 .text1 {
-    font-family: 'Nunito' sans-serif;
+    font-family: 'Nunito';
     color: #042521;
     mix-blend-mode: normal;
     padding-top: 11px;

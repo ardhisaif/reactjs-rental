@@ -6,7 +6,7 @@ import Testi from "../../components/testimonial/testi";
 import Finder from "../../components/vehicleFinder/finder";
 
 function Home() {
-    const isLoggedIn = true
+    const isLoggedIn = false
     return (
         <div>
             <Navbars position={"home"} isLoggedIn={isLoggedIn}  fixed="top" />

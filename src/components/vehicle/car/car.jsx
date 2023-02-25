@@ -29,9 +29,12 @@ function Car() {
           {Cars.data?.map((v) => {
             return( 
               <Card
+                key={v.id}
                 image={v.image} 
                 header={v.name} 
-                text={v.location}/>
+                text={v.location}
+                id={v.id}
+                />
             )
           })}
         </div>

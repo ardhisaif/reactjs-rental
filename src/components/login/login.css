@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: 'Mulish';
     src: url(https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap);
-}
+} */
 
 .login-container {
     display: flex;
@@ -135,7 +135,7 @@ a:link {
 
 #login-submit {
     border: none;
-    width: 446px;
+    width: 491px;
     height: 79px;
     background: #FFCD61;
     box-shadow: 0px 0px 20px rgba(248, 161, 112, 0.47);
@@ -157,7 +157,7 @@ a:link {
     align-items: center;
     margin-top: 34px;
     border: none;
-    width: 446px;
+    width: 491px;   
     height: 79px;
     background: #FFFFFF;
     box-shadow: 0px 0px 20px rgba(248, 161, 112, 0.47);

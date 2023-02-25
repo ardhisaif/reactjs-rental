@@ -1,0 +1,222 @@
+.detail-container {
+    margin-top: 80px;
+    padding-left: 110px;
+}
+
+.detail-head {
+    display: flex;
+}
+
+.detail-body {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.arrow {
+    margin-right: 61px;
+    background-image: url('../../../public/arrow.png');
+    background-size: cover;
+    width: 28px;
+    height: 43px;
+}
+
+.detail-title {
+    color: #000000;
+    font-size: 36px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+}
+
+.image-container {
+    
+    margin-top: 102px;
+    width: 610px;
+}
+
+.detail-image {
+    border-radius: 10px;
+    background-size: cover;
+    background-position-y: center;
+    height: 409px;
+}
+
+.image-list {
+    border-radius: 10px;
+    background-size: cover;
+    background-position-y: center;
+    width: 233px;
+    height: 158px;
+}
+
+.child-image {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.arrow-left {
+    background: url('../../../public/arrow.png');
+    background-size: cover;
+    width: 22px;
+    height: 35px;
+}
+
+.arrow-right {
+    background: url('../../../public/arrow.png');
+    transform: rotate(180deg);
+    background-size: cover;
+    width: 22px;
+    height: 35px;
+}
+
+.detail-text-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 68px;
+    padding-right: 171px;
+    margin-top: 84px;
+}
+
+.vehicle-title {
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.vehicle-subtitle {
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.available {
+    margin-top: 32px;
+    color: #087E0D;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.prepayment {
+    margin-top: 12px;
+    margin-bottom: 18px;
+    color: #9B0A0A;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.vehicle-description {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 40px;
+    color: #393939;
+}
+
+.price {
+    padding-top: 36px;
+    align-items: end;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 36px;
+    margin-left: 290px;
+    line-height: 25px;
+}
+
+.quantity {
+    margin-top: 105px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+#increment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFCD61;
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+#decrement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(203, 203, 212, 0.2);;
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.detail-button {
+    display: flex;
+    align-items: center;
+    margin-top: 58px;
+    margin-right: 171px;
+    margin-bottom: 32px;
+    justify-content: space-between;
+    height: 90px;
+}
+
+#chat {
+    display: flex;
+    color: #FFCD61;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #393939;;
+    width: 443px;
+    height: 90px;
+}
+
+#reservation {
+    display: flex;
+    color: #000000;;
+    font-family: 'Nunito';
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 10px;
+    background-color: #FFCD61;
+    width: 421px;
+    height: 90px;
+}
+
+#like {
+    display: flex;
+    color: #FFCD61;
+    font-family: 'Nunito';
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 10px;
+    background-color: #393939;
+    width: 225px;
+    height: 90px;
+
+}

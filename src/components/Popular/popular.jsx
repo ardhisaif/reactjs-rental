@@ -21,6 +21,7 @@ function Popular() {
 
   return (
     <div>
+      
         <div className='popular-container'>
             <div className='popular'>Popular in town</div>
             <div className='view'> View all</div>
@@ -29,9 +30,12 @@ function Popular() {
           {populars.data?.map((v) => {
             return( 
               <Card
+                key={v.id}
                 image={v.image} 
                 header={v.name} 
-                text={v.location}/>
+                text={v.location}
+                id={v.id}
+                />
             )
           })}
         </div>

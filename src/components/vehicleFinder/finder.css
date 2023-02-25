@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: 'Nunito';
     src: url(https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap);
-}
+} */
 
 .image{
     background-color: aquamarine;
@@ -23,7 +23,7 @@
 
 .finder {
     color: #202336;
-    font-family: 'Nunito' sans-serif;
+    font-family: 'Nunito';
     font-weight: 600;
     font-size: 22px;
     padding-bottom: 21px;
@@ -69,7 +69,7 @@ input[type=text], select {
     font-style: normal;
     font-size: 17px;
     mix-blend-mode: normal;
-    font-family: 'Nunito' sans-serif;
+    font-family: 'Nunito';
     cursor: pointer;
 }
 
@@ -78,7 +78,7 @@ input[type=text], select {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    font-family: 'Nunito' sans-serif;
+    font-family: 'Nunito';
 }
 
 .form-input {

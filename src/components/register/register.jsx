@@ -1,14 +1,12 @@
-import './login.css'
-
-function Login() {
+function Register() {
   return (
     <div>
         <div className='login-container'>
             <div className='signup'>
                 <div className='signup-title'>Le’ts Explore The World</div>
-                <div className='subtitle'>Don’t have account?</div>
+                <div className='subtitle'>already have account?</div>
                 <div className='button'>
-                    <a href="/signup" style={{textDecoration:'none', color:'#FFCD61'}}>Sign Up</a>
+                    <a href="/login" style={{textDecoration:'none', color:'#FFCD61'}}>Login</a>
                 </div>
             </div>
             <div  className='divider'>
@@ -16,20 +14,19 @@ function Login() {
                 <hr id='hr-login'/>
                 <div className='circle1'></div>
             </div>
-            <div className='login-form'>
+            <div className='login-form'  style={{paddingTop:'129px'}}>
                 <form action="">
                     <div className='login-input'>
+                        <input type="input" placeholder='Name' className='space'/> <br />
                         <input type="input" placeholder='Email' className='space'/> <br />
                         <input type="input" placeholder='Password'/><br />
                     </div>
-                    <div className='forgot-password'>
-                        <a href="/" >Forgot password?</a> <br />
-                    </div>
-                    <input type="submit" id='login-submit' value="Login"></input>
+                    <br />
+                    <input type="submit" id='login-submit' value="Sign Up"></input> 
                     <div className='login-google'>
                         <div className='google-text'>
                             <div id='google-logo'></div>
-                            Login with Google
+                            Sign Up with Google
                         </div>
                     </div>
                 </form>
@@ -39,4 +36,4 @@ function Login() {
   )
 }
 
-export default Login;
+export default Register;
