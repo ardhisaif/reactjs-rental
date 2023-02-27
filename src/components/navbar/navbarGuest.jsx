@@ -46,7 +46,7 @@ function NavbarGuest(props) {
           <li><a href="/" style={font.history}>History</a> </li>
           <li><a href="/" style={font.about}>About</a> </li>
           <li><a href="/login" className='login' style={{color:'#393939'}}>Login</a> </li>
-          <li><a href="/" className='register' style={{color:'#393939'}}>Register</a> </li>
+          <li><a href="/signup" className='register' style={{color:'#393939'}}>Register</a> </li>
         </ul>
       </nav>
     </div>
